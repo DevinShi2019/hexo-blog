@@ -21,7 +21,7 @@ before_install:
 # 配置 git 替换为自己的信息
 - git config --global user.name 'DevinShi2019'
 - git config --global user.email a2529151969@163.com
-
+- git config --list
 # 安装依赖
 install:
 - npm install hexo-cli -g
