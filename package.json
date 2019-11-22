@@ -16,7 +16,7 @@
     "token": "k7HjmV7tya10oGS0ccuH2tmeiey4w2Arskhq5Nnh",
     "baseUrl": "https://www.yuque.com/api/v2",
     "login": "system-design",
-    "repo": "project",
+    "repo": "blog",
     "mdNameFormat": "title",
     "postPath": "source/_posts/yuque",
     "onlyPublished": true
