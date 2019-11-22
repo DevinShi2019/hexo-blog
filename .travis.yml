@@ -19,8 +19,8 @@ before_install:
 - ssh-add ~/.ssh/id_rsa
 - cp .travis/ssh_config ~/.ssh/config
 # 配置 git 替换为自己的信息
-- git config --global user.name 'acwong'
-- git config --global user.email acwong00@gmail.com
+- git config --global user.name 'DevinShi2019'
+- git config --global user.email a2529151969@163.com
 
 # 安装依赖
 install:
