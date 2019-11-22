@@ -14,7 +14,7 @@
   },
   "yuqueConfig": {
     "baseUrl": "https://www.yuque.com/api/v2",
-    "login": "u46795",
+    "login": "system-design",
     "repo": "blog",
     "mdNameFormat": "title",
     "postPath": "source/_posts/yuque"
