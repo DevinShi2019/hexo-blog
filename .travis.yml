@@ -28,8 +28,8 @@ before_install:
 
 install:
 - npm install hexo-cli -g
-- hexo -v
 - npm install
+- hexo -v
 
 # 部署的命令
 script:
