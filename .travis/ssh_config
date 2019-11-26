@@ -4,11 +4,4 @@ Host github.com
   StrictHostKeyChecking no
   IdentityFile ~/.ssh/id_rsa
   IdentitiesOnly yes
-
-Host e.coding.net
-  HostName e.coding.net
-  User git
-  StrictHostKeyChecking no
-  IdentityFile ~/.ssh/id_rsa
-  IdentitiesOnly yes
  
