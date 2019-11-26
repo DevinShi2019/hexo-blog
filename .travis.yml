@@ -7,6 +7,8 @@ branches:
 cache:
   directories:
   - node_modules # 依赖缓存的目录
+before_install:
+- export TZ='Asia/Shanghai'  # 设置时区
 
 before_install:
 - openssl aes-256-cbc -K $encrypted_3298a3250f93_key -iv $encrypted_3298a3250f93_iv
