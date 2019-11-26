@@ -96,5 +96,7 @@ theme: pure
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:DevinShi2019/DevinShi2019.github.io.git
-  branch: master
+  repo:
+      github: git@github.com:DevinShi2019/DevinShi2019.github.io.git,master
+      coding: git@e.coding.net:sdf-system/blog-hexo.git,master
+    
