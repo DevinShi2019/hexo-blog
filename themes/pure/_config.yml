@@ -128,11 +128,11 @@ comment:
     ClientID:  #必须. GitHub Application Client ID.
     ClientSecret:  #必须. GitHub Application Client Secret.
   valine: # Valine. https://valine.js.org
-    appid:  # your leancloud application appid
-    appkey:  # your leancloud application appkey
+    appid:  XOBezqWsMQBTsnj3y57QoEYr-9Nh9j0Va # your leancloud application appid
+    appkey:  xvbow1FUW9lFdLTkTJD7ue7M # your leancloud application appkey
     notify: false # mail notifier , https://github.com/xCss/Valine/wiki
     verify: false # Verification code
-    placeholder: Just go go # comment box placeholder
+    placeholder: 每一份发言都值得被记录 # comment box placeholder
     avatar: mm # gravatar style
     meta: nick,mail,link # custom comment header
     pageSize: 10 # pagination size
@@ -159,13 +159,13 @@ pv:
   busuanzi:
     enable: false  # 不蒜子统计
   leancloud:
-    enable: false  # leancloud统计
-    app_id: # leancloud <AppID>
-    app_key: # leancloud <AppKey>
+    enable: true  # leancloud统计
+    app_id: AS9AgKEd4eXTTmj6v2jYyMsp-9Nh9j0Va # leancloud <AppID>
+    app_key: bw29P0Xymkk5gHDgyfty1uor # leancloud <AppKey>
         
 # wordcount
 postCount:
-  enable: false
+  enable: true
   wordcount: true  # 文章字数统计
   min2read: true  # 阅读时长预计 
 
@@ -174,7 +174,7 @@ plugins:
   google_analytics: # enter the tracking ID for your Google Analytics
   google_site_verification: # enter Google site verification code
   baidu_analytics: # enter Baidu Analytics hash key
-  tencent_analytics: 
+  tencent_analytics:  66494056
   
 # Miscellaneous
 twitter:
