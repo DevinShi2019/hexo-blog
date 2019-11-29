@@ -205,36 +205,30 @@ profile:
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
   skills:
-    Git: ★★★☆☆
-    Gulp: ★★★☆☆
-    Javascript: ★★★☆☆
-    HTML+CSS: ★★★☆☆
+    Git: ★★★★☆
+    Webpack: ★★★☆☆
+    Javascript: ★★★★☆
+    HTML+CSS: ★★★★☆
     Bootstrap: ★★★☆☆
-    ThinkPHP: ★★★☆☆
-    平面设计: ★★★☆☆
+    JAVA: ★★★☆☆
+    Android: ★★★☆☆
+    iOS: ★★★☆☆
   # My Personal Links
   links:
-    Github: https://github.com/cofess
-    Blog: http://blog.cofess.com
-    微博: http://weibo.com/cofess
-    花瓣: http://huaban.com/cofess
-    Behance: https://www.behance.net/cofess
+    Github: https://github.com/DevinShi2019
   # My Personal Labels
   labels:
     - 前端
     - 前端开发
     - 前端重构
-    - Web前端
-    - 网页重构
+    - 移动开发
   # My Personal Works
   works:
     name:
-      link: http://www.example.com
-      date: 2016
+      link: 
+      date: 2014
   # My Personal Projects
   projects:
-    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
-    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
 
 markdown_it_plus:
   highlight: true
