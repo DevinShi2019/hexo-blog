@@ -1,4 +1,8 @@
 ---
 title: 关于
-date: 2019-11-25 10:16:29
+description: 个人简介
+layout: about
+comments: false
+sidebar: custom
 ---
+个人详细介绍
