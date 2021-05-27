@@ -39,7 +39,7 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        deploy_key: ${{ secrets.GB_API_TOKEN }}
+        personal_token: ${{ secrets.GB_API_TOKEN }}
         external_repository: DevinShi2019/DevinShi2019.github.io
         publish_branch: master
         publish_dir: ./public
