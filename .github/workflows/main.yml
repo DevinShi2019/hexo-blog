@@ -28,7 +28,7 @@ jobs:
     # from https://github.com/x-cold/yuque-hexo
     - name: Setup Hexo Dependencies and Generate Public Files
       env:
-        YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
+        YUQUE_TOKEN: ${{ secret.YUQUE_TOKEN }}
       run: |
         npm install hexo-cli -g
         npm install yuque-hexo -g
@@ -39,8 +39,8 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        deploy_key: ${{ secrets.Github_SSH_PRIVATE_KEY }}
-        external_repository: 用户名/仓库
+        deploy_key: ${{ secret.GB_API_TOKEN }}
+        external_repository: DevinShi2019/DevinShi2019.github.io
         publish_branch: master
         publish_dir: ./public
         commit_message: ${{ github.event.head_commit.message }} 
