@@ -24,6 +24,8 @@ jobs:
       uses: actions/setup-node@master
       with:
         node-version: "10.x"
+        deploy_key: ${{ secrets.secrets.GB_API_TOKEN }}
+        deploy_key_a1: ${{ secrets.GB_API_TOKEN }}
     
     # from https://github.com/x-cold/yuque-hexo
     - name: Setup Hexo Dependencies and Generate Public Files
