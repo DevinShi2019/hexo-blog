@@ -5536,6 +5536,10 @@ pre,
   line-height: 1.5;
 }
 
+.highlight .gutter {
+  display: none;
+}
+
 .highlight .gutter pre,
 .gist .gist-file .gist-data .line-numbers {
   color: #666;

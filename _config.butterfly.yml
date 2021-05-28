@@ -26,6 +26,28 @@ permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing index.html from permalinks
 
+menu:
+  首页: / || fas fa-home
+  时间轴: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  # 清单||fa fa-heartbeat:
+  #   音樂: /music/ || fas fa-music
+  #    照片: /Gallery/ || fas fa-images
+  # 電影: /movies/ || fas fa-video
+  友链: /links/ || fas fa-link
+  关于: /about/ || fas fa-heart
+
+highlight_theme: mac light
+highlight_shrink: false
+code_word_wrap: true
+
+index_post_content:
+  method: 2
+  length: 500
+
+top_img: "linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)"
+
 # Directory
 source_dir: source
 public_dir: public

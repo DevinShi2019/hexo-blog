@@ -8,10 +8,11 @@
     "clean:yuque": "yuque-hexo clean",
     "deploy": "npm run sync && npm run clean && hexo g -d",
     "clean": "hexo clean",
-    "server": "hexo server"
+    "serve": "hexo server",
+    "contact": "hexo new page 404"
   },
   "hexo": {
-    "version": "4.0.0"
+    "version": "5.4.0"
   },
   "yuqueConfig": {
     "token": "k7HjmV7tya10oGS0ccuH2tmeiey4w2Arskhq5Nnh",
@@ -23,24 +24,25 @@
     "onlyPublished": true
   },
   "dependencies": {
-    "hexo": "^4.0.0",
-    "hexo-deployer-git": "^2.1.0",
+    "hexo": "^5.4.0",
+    "hexo-deployer-git": "^3.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-baidu-sitemap": "^0.1.6",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-feed": "^2.1.1",
     "hexo-generator-index": "^1.0.0",
-    "hexo-generator-json-content": "^4.1.6",
+    "hexo-generator-json-content": "^1.4.0",
     "hexo-generator-sitemap": "^2.0.0",
     "hexo-generator-tag": "^1.0.0",
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-markdown-it-plus": "^1.0.4",
+    "hexo-renderer-pug": "^1.0.0",
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0",
     "hexo-wordcount": "^6.0.1"
   },
   "devDependencies": {
-    "hexo-util": "^1.5.0",
+    "hexo-util": "^2.5.0",
     "yuque-hexo": "^1.6.2"
   }
 }

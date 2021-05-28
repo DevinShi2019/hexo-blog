@@ -1,0 +1,7 @@
+{
+    "i18n-ally.localesPaths": [
+        "themes/landscape/languages",
+        "themes/matery/languages",
+        "themes/pure/languages"
+    ]
+}
