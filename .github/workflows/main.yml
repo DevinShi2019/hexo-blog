@@ -7,40 +7,38 @@ on: [push, repository_dispatch, workflow_dispatch]
 # YUQUE_TOKEN
 # Github_SSH_PRIVATE_KEY
 jobs:
-  deploy: 
+  deploy:
     name: Deploy Hexo Public To Pages
-    runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest
     env:
-      TZ: Asia/Shanghai 
-        
+      TZ: Asia/Shanghai
+
     steps:
-    # check it to your workflow can access it
-    # from: https://github.com/actions/checkout
-    - name: Checkout Repository master branch
-      uses: actions/checkout@master
-      
-    # from: https://github.com/actions/setup-node  
-    - name: Setup Node.js 10.x 
-      uses: actions/setup-node@master
-      with:
-        node-version: "12.20.x"
-    
-    # from https://github.com/x-cold/yuque-hexo
-    - name: Setup Hexo Dependencies and Generate Public Files
-      env:
-        YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
-      run: |
-        npm install hexo-cli -g
-        npm install yuque-hexo -g
-        npm install
-        npm run start
-        
-    # from https://github.com/peaceiris/actions-gh-pages    
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        personal_token: ${{ secrets.GB_API_TOKEN }}
-        external_repository: DevinShi2019/DevinShi2019.github.io
-        publish_branch: master
-        publish_dir: ./public
-        commit_message: ${{ github.event.head_commit.message }} 
+      # check it to your workflow can access it
+      # from: https://github.com/actions/checkout
+      - name: Checkout Repository master branch
+        uses: actions/checkout@master
+
+      # from: https://github.com/actions/setup-node
+      - name: Setup Node.js 10.x
+        uses: actions/setup-node@master
+        with:
+          node-version: "12.20.x"
+
+      # from https://github.com/x-cold/yuque-hexo
+      - name: Setup Hexo Dependencies and Generate Public Files
+        env:
+          YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
+        run: |
+          npm install
+          npm run start
+
+      # from https://github.com/peaceiris/actions-gh-pages
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GB_API_TOKEN }}
+          external_repository: DevinShi2019/DevinShi2019.github.io
+          publish_branch: master
+          publish_dir: ./public
+          commit_message: ${{ github.event.head_commit.message }}
