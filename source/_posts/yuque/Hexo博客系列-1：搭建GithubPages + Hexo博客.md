@@ -126,7 +126,7 @@ ssh-keygen -t rsa -C "youremail"
 1. 在 GitHub 的 Setting > SSH and GPG keys 中，找到 SSH keys 的设置选项，点击 New SSH key
 1. 把你的 id_rsa.pub 里面的信息复制进去。
 
-![](https://cdn.nlark.com/yuque/0/2019/jpeg/264294/1574749300215-4951a6bb-34e4-4b83-803d-b0e9c19a75b0.jpeg#align=left&display=inline&height=1080&originHeight=1080&originWidth=2411&search=&size=0&status=done&width=2411)
+![](https://cdn.nlark.com/yuque/0/2019/jpeg/264294/1574749300215-4951a6bb-34e4-4b83-803d-b0e9c19a75b0.jpeg#align=left&display=inline&height=1080&originHeight=1080&originWidth=2411&size=0&status=done&width=2411)
 
 ### 验证 SSH
 
@@ -170,7 +170,7 @@ hexo deploy
 ### 配置 GITHUB 为私有域名
 
 在如下配置页面设置私有域名为你自己购买的域名 如:blog.heidi.pub
-![](https://cdn.nlark.com/yuque/0/2019/jpeg/264294/1574749319525-5c29c261-635f-425e-983e-4c2f03690432.jpeg#align=left&display=inline&height=1080&originHeight=1080&originWidth=2105&search=&size=0&status=done&width=2105)
+![](https://cdn.nlark.com/yuque/0/2019/jpeg/264294/1574749319525-5c29c261-635f-425e-983e-4c2f03690432.jpeg#align=left&display=inline&height=1080&originHeight=1080&originWidth=2105&size=0&status=done&width=2105)
 
 ### 设置 CNAME
 
